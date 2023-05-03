@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ladenscreen</title>
+    <style>
+        body {
+
+            background-color: #C2D2B8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Press Start 2P', cursive;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #4B5B4D;
+            margin-bottom: 10px;
+        }
+
+        .loader-container {
+            width: 300px;
+            height: 10px;
+            background-color: #C2D2B8;
+            margin: 0 auto;
+            position: relative;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .loader-bar {
+            width: 0%;
+            height: 100%;
+            background-color: #4B5B4D;
+            animation: loading 8s infinite;
+        }
+
+        @keyframes loading {
+            0% {
+                width: 0%;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+
+        /* .pixel-art {
+            width: 100px;
+            height: 100px;
+            background-image: url('pixel_art.png'); 
+            background-size: cover;
+            margin-bottom: 20px;
+        } */
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hier entsteht etwas</h1>
+        <div class="loader-container">
+            <div class="loader-bar"></div>
+        </div>
+        <!-- <div class="pixel-art"></div> -->
+        <p id="text">
+        </p>
+    </div>
+</body>
+<script>
+    
+</script>
+
+</html>
